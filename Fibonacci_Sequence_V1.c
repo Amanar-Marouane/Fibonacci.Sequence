@@ -18,7 +18,7 @@ int main(){
     printf("the sequence has begin.\n");
     printf("%i\n%i\n",term_1,term_2);
 
-    for (int i = 0; i < length; i++)
+    for (int i = 0; i < length - 1; i++)
     {
         fib = term_1 + term_2;
         printf("%i\n",fib);
